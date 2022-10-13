@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   int num, qtdNum = 0, reverse = 0, aux;
 

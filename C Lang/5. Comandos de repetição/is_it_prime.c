@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
-{
+int main(void){
   int number;
-  do
-  {
+  do{
     size_t count = 0;
     printf("Type a number: ");
     scanf("%d", &number);

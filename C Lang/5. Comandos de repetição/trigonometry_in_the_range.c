@@ -3,7 +3,7 @@
 #include <math.h>
 
 #define PI 3.141592654
-void main(void)
+int main(void)
 {
   int x;
   float ceil, floor, aux;
