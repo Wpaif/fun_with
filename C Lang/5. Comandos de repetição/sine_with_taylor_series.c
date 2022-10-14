@@ -27,7 +27,6 @@ int main(void) {
   clock_t end = clock();
 
   printf("sin(%lf°) = %.6f\n", degr, sum);
-  // printf("%.6f\n", sin(rad));
 
   printf("The elapsed time is %f seconds",
          (double)(end - begin) / CLOCKS_PER_SEC);
