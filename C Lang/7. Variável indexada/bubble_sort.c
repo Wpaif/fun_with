@@ -2,7 +2,7 @@
 
 int main(void) {
   int v[] = {5, 4, 22, 6, 12, 7, 4, 8, 1, -1, -5, 0, 11};
-  char length = sizeof(v) / sizeof(v[0]);
+  char length = sizeof(v) / sizeof(int);
 
   for (int i = 0; i < length; i++) {
     for (int j = 0; j < length - 1; j++) {
