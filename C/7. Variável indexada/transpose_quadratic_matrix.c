@@ -18,7 +18,6 @@ int main(void) {
       exit(1);
 
     system("clear");
-    printf("Type the values:\n");
     for (i = 0; i < rows * columns; i++)
       mat[i] = i + 1;
 
