@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
   unsigned long number;
   printf("Type a integer number:\n");
   scanf("%ld", &number);
@@ -9,13 +8,15 @@ int main(void)
   printf("\n");
   if (number % 3 == 0 && number % 5 == 0 && number % 7 == 0)
     printf("The number is divisible by three five and seven.\n");
-  else
-  {
+  else {
     if (number % 3 == 0)
-      printf("The number is divisivle by three.\n %d / 3 = %d\n", number, number / 3);
+      printf("The number is divisivle by three.\n %lu / 3 = %lu\n", number,
+             number / 3);
     if (number % 5 == 0)
-      printf("The number is divisible by five.\n %d / 5 = %d\n", number, number / 5);
+      printf("The number is divisible by five.\n %lu / 5 = %lu\n", number,
+             number / 5);
     if (number % 7 == 0)
-      printf("The number is divisible by seven.\n %d / 7 = %d\n", number, number / 7);
+      printf("The number is divisible by seven.\n %lu / 7 = %lu\n", number,
+             number / 7);
   }
 }

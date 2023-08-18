@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <time.h>
 
-#define pi 3.14159265358979323846
-
 int main(void) {
 
   int sign = -1, pwr = 3;
@@ -11,7 +9,7 @@ int main(void) {
   printf("Give degrees: ");
   scanf("%lf", &degr);
 
-  rad = degr * (pi / 180);
+  rad = degr * (M_PI / 180);
   sum = rad;
 
   previous = rad;

@@ -1,7 +1,6 @@
 #include <math.h>
 #include <stdio.h>
 
-#define PI 3.142857
 #define loops 10 
 
 long int factorial(short int n);
@@ -13,7 +12,7 @@ int main() {
     printf("Type an angle: ");
     scanf("%d", &angle);
 
-    aux = PI * angle / 180;
+    aux = M_PI * angle / 180;
 
     for (size_t i = 0; i <= loops; i++) {
       sen += pow(-1, i) * (pow(aux, 2 * i + 1) / factorial(2 * i + 1));
