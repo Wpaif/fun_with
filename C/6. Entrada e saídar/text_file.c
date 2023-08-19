@@ -31,4 +31,6 @@ int main() {
   f2 = fopen("outline.txt", "r");
   fclose(f2);
   system("bat outline.txt");
+
+  return 0;
 }
