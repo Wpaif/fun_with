@@ -43,7 +43,7 @@ int main(void) {
     scanf("%c", &c);
     setbuf(stdin, NULL);
 
-    if(toupper(c) == 'N'){
+    if (toupper(c) == 'N') {
       break;
     }
 
